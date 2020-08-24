@@ -1,0 +1,38 @@
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
+            background: url("images/bg-desktop.svg"), #674BAF;
+            background-size:cover;
+        }
+        #hero{
+        margin-top: 40px;
+        }
+        #hero h1{
+            font-family: 'poppins', sans-serif;
+            font-weight: 700;
+            font-size: 2.3rem;
+        }
+        h1, p{
+            color: white;
+        }
+        #register-btn{
+            font-family: 'poppins', sans-serif;
+            color: #674BAF;
+            box-shadow: 0 3px 3px rgb(63, 61, 61);
+        }
+        
+        
+        #social-btn a{
+            color: white;
+            border: 1px solid white;
+            
+        }
+        @media screen(max-width: 375px;) {
+            body{
+            background: url('bg-mobile.svg');
+            }
+        }

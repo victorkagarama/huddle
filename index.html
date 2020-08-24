@@ -1,107 +1,53 @@
-<!DOCTYPE html>
-<html lang="en">
+  <!DOCTYPE html>
+      <html lang="en">
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+          integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Frontend Mentor | Huddle landing page with single introductory section</title>
+      </head>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
-    integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+      <body>
+        <!-- Image brand-->
+      <nav class="navbar navbar-dark py-3">
+        <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.svg"  class="d-inline-block align-top" alt="" loading="lazy">
+        </a>
+      </div>
+      </nav>
 
-  <title>Frontend Mentor | Huddle landing page with single introductory section</title>
+      <section class="mt-5">
+      <div class="container d-lg-flex">
+        <div class="col-12 col-lg-7 col-xl-6">
+          <img class="image-fluid" src="images/illustration-mockups.svg" width="95%">
+        </div>
+        <div id="hero" class="col-12 col-lg-5 col-xl-6">
+          <h1 class="my-3">Build The Community Your Fans Will Love</h1>
+          <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connection with users you engage in genuine discussion.</p>
+          <a id="register-btn" href="" class="btn bg-light px-5 rounded-pill">Register</a>
+        </div>
+      </div>
 
-  <style type="text/css">
-    *{
-      margin: 0;
-      padding: 0;
-    }
-    body{
-      font-family: 'Open Sans', sans-serif;
-      font-weight: 400;
-      
-      background: url("images/bg-desktop.svg"), #674BAF;
-      background-size:cover;
-    }
-   #hero{
-     margin-top: 40px;
-   }
-    #hero h1{
-      font-family: 'poppins', sans-serif;
-      font-weight: 700;
-      font-size: 2.3rem;
-    }
-    h1, p{
-      color: white;
-    }
-    #register-btn{
-      font-family: 'poppins', sans-serif;
-      color: #674BAF;
-      box-shadow: 0 3px 3px rgb(63, 61, 61);
-    }
-    
-    
-    #social-btn a{
-      color: white;
-      border: 1px solid white;
-      
-    }
-    @media screen(max-width: 375px;) {
-      body{
-        background: url('bg-mobile.svg');
-      }
-    }
+      </section>
 
-  </style>
-</head>
+        <footer class="mt-5 ">
+      <div id="social-btn" class="col-12 d-flex justify-content-end">
+        <a href="" class="btn bg-none rounded-circle mr-3 px-auto"><i class="fab fa-facebook-f"></i></a>
+        <a href="" class="btn bg-none rounded-circle mr-3 px-auto"><i class="fab fa-twitter"></i></a>
+        <a href="" class="btn bg-none rounded-circle mr-3 px-auto"><i class="fab fa-instagram"></i></a>
+      </div> 
+        </footer>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
+      </body>
 
-<body>
-  <!-- Image brand-->
-<nav class="navbar navbar-dark py-3">
-  <div class="container">
-  <a class="navbar-brand" href="#">
-    <img src="images/logo.svg"  class="d-inline-block align-top" alt="" loading="lazy">
-  </a>
-</div>
-</nav>
-
-<section class="mt-5">
-<div class="container d-lg-flex">
-  <div class="col-12 col-lg-7 col-xl-6">
-    <img class="image-fluid" src="images/illustration-mockups.svg" width="95%">
-  </div>
-  <div id="hero" class="col-12 col-lg-5 col-xl-6">
-    <h1 class="my-3">Build The Community Your Fans Will Love</h1>
-    <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connection with users you engage in genuine discussion.</p>
-    <a id="register-btn" href="" class="btn bg-light px-5 rounded-pill">Register</a>
-  </div>
-</div>
-
-</section>
-
-
-
-
-
-
-
-
-
-
-
-  <footer class="mt-5 ">
-<div id="social-btn" class="col-12 d-flex justify-content-end">
-  <a href="" class="btn bg-none rounded-circle mr-3 px-auto"><i class="fab fa-facebook-f"></i></a>
-  <a href="" class="btn bg-none rounded-circle mr-3 px-auto"><i class="fab fa-twitter"></i></a>
-  <a href="" class="btn bg-none rounded-circle mr-3 px-auto"><i class="fab fa-instagram"></i></a>
-</div> 
-  </footer>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
-</body>
-
-</html>
+      </html>
